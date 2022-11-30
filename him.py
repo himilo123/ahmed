@@ -15,7 +15,7 @@ from dash import Input, Output, html, dcc
 app = dash.Dash(external_stylesheets=[dbc.themes.SOLAR])
 title = html.H1("Strategic Planning Presentationss", style={'textAlign': 'center'})
 
-Survey = pd.read_excel('Survey.xlsx')
+Survey = pd.read_csv('Survey.csv')
 heads = ['Position', 'Tenure', 'Adaptability',
          'No_pressure', 'Awareness', 'Likelihood', 'Influence', 'Importance',
          'DefinedGoals', 'ReachGoal', 'Rewards', 'ParticiptionGoals',
