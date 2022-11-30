@@ -1,6 +1,6 @@
-import components as components
+
 import plotly.graph_objects as go
-import components as components
+
 import dash
 from dash import dcc
 import dash_bootstrap_components as dbc
