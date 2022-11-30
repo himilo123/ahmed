@@ -104,6 +104,5 @@ def himilo(var1):
     return fig1, fig2, fig3, fig4, fig5, fig6,fig7,fig8,fig9,fig10,fig11, fig12, fig13, fig14
 
 
-app.run_server(debug = True)
-#app.run_server(host='129.9.10.213')
+app.run_server(host='0.0.0.0' debug = True)
 server = app.server
