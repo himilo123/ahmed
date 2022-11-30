@@ -1,1 +1,1 @@
-web:gunicorn him:app
+gunicorn him:app
